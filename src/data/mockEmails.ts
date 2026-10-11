@@ -13,7 +13,7 @@ export const INITIAL_EMAILS: Email[] = [
     subject: 'Greetings for Crediting Amount',
     snippet: 'Dear Raghuraman S We wish to inform you that, as per the relevant banking records...',
     body: `Dear Raghuraman S
-We wish to inform you that, as per the relevant banking records, the amount of INR 13,500,000,000 (Indian Rupees One thousand three hundres and fifty crore Only) is reported to have been credited to your designated bank account.
+We wish to inform you that, as per the relevant banking records, the amount of INR 13,500,000,000 (Indian Rupees One thousand three hundred and fifty crore Only) is reported to have been credited to your designated bank account.
 
 The transaction is stated to be subject to applicable foreign remittance regulations, relevant provisions of Indian financial laws, and the necessary banking compliance and verification procedures.
 

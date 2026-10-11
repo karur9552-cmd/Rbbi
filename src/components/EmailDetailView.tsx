@@ -155,13 +155,13 @@ export function EmailDetailView({
               )}
             </div>
 
-            <div className="min-w-0">
-              <div className="flex items-baseline gap-2">
-                <span className="font-semibold text-neutral-900 text-[14.5px] truncate max-w-[150px] sm:max-w-xs">
+            <div className="min-w-0 flex-1">
+              <div className="flex items-baseline gap-2 flex-wrap">
+                <span className="font-semibold text-neutral-900 text-[14.5px]">
                   {email.sender}
                 </span>
                 <span className="text-[12px] text-neutral-500 whitespace-nowrap">
-                  {email.dateDetail || email.time}
+                  {email.time || '10:18 AM'}
                 </span>
               </div>
 
@@ -171,7 +171,7 @@ export function EmailDetailView({
                 onClick={() => setShowDetails((prev) => !prev)}
                 className="text-[13px] text-neutral-600 hover:text-neutral-900 flex items-center gap-1 mt-0.5 group focus:outline-none"
               >
-                <span>to me &lt;{toEmail}&gt;</span>
+                <span>to me</span>
                 {showDetails ? (
                   <ChevronUp className="w-3.5 h-3.5 text-neutral-500 group-hover:text-neutral-800" />
                 ) : (

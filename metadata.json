@@ -1,0 +1,6 @@
+{
+  "name": "Gmail Mobile",
+  "description": "Pixel-perfect, interactive replica of the Gmail Android mobile app home screen with search, drawer, compose, and inbox views.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

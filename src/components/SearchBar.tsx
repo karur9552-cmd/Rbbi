@@ -119,8 +119,8 @@ export function SearchBar({
                 }}
               />
             ) : null}
-            <div className="w-full h-full bg-amber-700 text-white flex items-center justify-center font-medium text-xs">
-              K
+            <div className="w-full h-full bg-[#0b57d0] text-white flex items-center justify-center font-medium text-xs">
+              R
             </div>
           </button>
         )}

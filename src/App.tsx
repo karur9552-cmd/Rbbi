@@ -104,8 +104,8 @@ export default function App() {
     const created: Email = {
       id: `email-${Date.now()}`,
       sender: 'Me',
-      senderEmail: 'karur9552@gmail.com',
-      avatarText: 'K',
+      senderEmail: 'r32071381@gmail.com',
+      avatarText: 'R',
       avatarColor: 'bg-[#0b57d0]',
       subject: newMsg.subject,
       snippet: newMsg.body.slice(0, 45) + '...',

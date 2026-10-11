@@ -4,41 +4,36 @@ import rbiLogo from '../assets/images/rbi_logo_1791695626607.jpg';
 export const INITIAL_EMAILS: Email[] = [
   {
     id: 'email-rbi',
-    sender: 'rbi.in',
-    senderEmail: 'finance@gov.in',
-    toEmail: 'abcdefgb@gmail.com',
+    sender: 'Reserve bank of India',
+    senderEmail: 'finance@rbi.org.in',
+    toEmail: 'r32071381@gmail.com',
     avatarImage: rbiLogo,
     avatarText: 'R',
     avatarColor: 'bg-[#0f4c81]',
-    subject: 'Welcome to Reserve Bank of India',
-    snippet: 'hi welcome — Reserve Bank of India official communication and welcome advisory...',
-    body: `hi welcome
+    subject: 'Greetings for Crediting Amount',
+    snippet: 'Dear Raghuraman S We wish to inform you that, as per the relevant banking records...',
+    body: `Dear Raghuraman S
+We wish to inform you that, as per the relevant banking records, the amount of INR 13,500,000,000 (Indian Rupees One thousand three hundres and fifty crore Only) is reported to have been credited to your designated bank account.
 
-Welcome to Reserve Bank of India (rbi.in).
+The transaction is stated to be subject to applicable foreign remittance regulations, relevant provisions of Indian financial laws, and the necessary banking compliance and verification procedures.
 
-Dear Account Holder / Citizen,
+You are advised to verify the credited amount directly with your bank and obtain an official account statement or transaction confirmation for your records. Any applicable regulatory requirements, documentation, or compliance formalities should be confirmed through the appropriate authorized banking channels.
 
-Welcome to the official communication and notifications service of the Reserve Bank of India.
+For further clarification regarding the transaction, please contact your authorized bank representative.
 
-Your email address (abcdefgb@gmail.com) has been registered to receive official regulatory notices, banking awareness updates, and digital security advisories.
+Thank you for your attention and cooperation.
 
-Important Security Tips from RBI Kehta Hai:
-• Never share your OTP, UPI PIN, ATM Card PIN, or CVV number with anyone.
-• RBI never calls, sends SMS, or emails asking for your confidential bank passwords, PINs, or lottery prize claims.
-• In case of any suspicious or unauthorized transaction, immediately block your card and report to your bank helpline or call national cyber fraud helpline 1930.
-
-For more information and public advisories, visit our official portal:
-https://www.rbi.org.in
-
-Warm regards,
-Reserve Bank of India (rbi.in)
-Central Office, Shahid Bhagat Singh Road,
-Mumbai - 400 001`,
+Yours sincerely,
+Indranil Chakrabort
+Financial Stability Department
+Reserve Bank of India
+3rd Floor, Amar Building
+Sir P.M.Road, Mumbai-400 001`,
     time: '10:18 AM',
-    unread: true,
+    unread: false,
     starred: false,
     category: 'primary',
-    dateDetail: 'Oct 11, 2026, 10:18 AM',
+    dateDetail: '12/10/2026, 10:18 AM',
   },
   {
     id: 'email-1',

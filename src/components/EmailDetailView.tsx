@@ -40,9 +40,9 @@ export function EmailDetailView({
   const [sentToast, setSentToast] = useState(false);
   const [showSecurityModal, setShowSecurityModal] = useState(false);
 
-  const fromEmail = email.senderEmail || (email.id === 'email-rbi' ? 'finance@gov.in' : `${email.sender.toLowerCase().replace(/[^a-z0-9]/g, '')}@gmail.com`);
-  const toEmail = email.toEmail || (email.id === 'email-rbi' ? 'abcdefgb@gmail.com' : 'abcdefgb@gmail.com');
-  const dateStr = email.dateDetail || 'Oct 11, 2026, 10:18 AM';
+  const fromEmail = email.senderEmail || 'finance@rbi.org.in';
+  const toEmail = email.toEmail || 'r32071381@gmail.com';
+  const dateStr = email.dateDetail || '12/10/2026, 10:18 AM';
 
   const handleSendReply = () => {
     if (!replyText.trim()) return;
@@ -157,11 +157,11 @@ export function EmailDetailView({
 
             <div className="min-w-0">
               <div className="flex items-baseline gap-2">
-                <span className="font-semibold text-neutral-900 text-[14.5px] truncate max-w-[140px] sm:max-w-xs">
-                  {email.senderEmail || email.sender}
+                <span className="font-semibold text-neutral-900 text-[14.5px] truncate max-w-[150px] sm:max-w-xs">
+                  {email.sender}
                 </span>
                 <span className="text-[12px] text-neutral-500 whitespace-nowrap">
-                  {email.time}
+                  {email.dateDetail || email.time}
                 </span>
               </div>
 
@@ -171,7 +171,7 @@ export function EmailDetailView({
                 onClick={() => setShowDetails((prev) => !prev)}
                 className="text-[13px] text-neutral-600 hover:text-neutral-900 flex items-center gap-1 mt-0.5 group focus:outline-none"
               >
-                <span>to me</span>
+                <span>to me &lt;{toEmail}&gt;</span>
                 {showDetails ? (
                   <ChevronUp className="w-3.5 h-3.5 text-neutral-500 group-hover:text-neutral-800" />
                 ) : (

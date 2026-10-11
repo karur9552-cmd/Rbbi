@@ -76,7 +76,7 @@ export function ComposeModal({ isOpen, onClose, onSend }: ComposeModalProps) {
         {/* From */}
         <div className="flex items-center px-4 py-3 border-b border-neutral-100 text-sm">
           <span className="text-neutral-500 w-16">From</span>
-          <span className="text-neutral-800 font-medium">karur9552@gmail.com</span>
+          <span className="text-neutral-800 font-medium">r32071381@gmail.com</span>
         </div>
 
         {/* To */}

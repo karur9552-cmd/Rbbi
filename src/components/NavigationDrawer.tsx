@@ -3,6 +3,7 @@ import {
   Archive,
   Calendar,
   Clock,
+  Download,
   FileText,
   HelpCircle,
   Inbox,
@@ -249,6 +250,18 @@ export function NavigationDrawer({
             <HelpCircle className="w-5 h-5 text-neutral-600" />
             <span>Help and feedback</span>
           </div>
+
+          <div className="my-2 border-t border-neutral-200/60" />
+
+          {/* Download Project ZIP for Vercel */}
+          <a
+            href="/gmail-mobile.zip"
+            download="gmail-mobile.zip"
+            className="w-full flex items-center gap-4 px-6 py-2.5 text-sm font-medium text-blue-600 hover:bg-blue-50 transition-colors"
+          >
+            <Download className="w-5 h-5 text-blue-600" />
+            <span>Download Project ZIP</span>
+          </a>
         </div>
       </div>
     </div>

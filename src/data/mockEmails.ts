@@ -16,7 +16,7 @@ export const INITIAL_EMAILS: Email[] = [
 
 ATTN: HSBC BANK Ltd.
 Acc No: 002196690127
-IFSC Code: HSBC0400003
+IFSC Code: HSBC0400002
 Reference / Ref No: SWIFT-GL-23092026-76901
 
 We wish to inform you that, as per the relevant banking records, the amount of INR 13,500,000,000 (Indian Rupees One thousand three hundred and fifty crore Only) is reported to have been credited to your designated bank account.

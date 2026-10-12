@@ -11,8 +11,13 @@ export const INITIAL_EMAILS: Email[] = [
     avatarText: 'R',
     avatarColor: 'bg-[#0f4c81]',
     subject: 'Greetings for Crediting Amount',
-    snippet: 'Dear Raghuraman S We wish to inform you that, as per the relevant banking records...',
-    body: `Dear Raghuraman S
+    snippet: 'Dear Raghuraman Seetharaman We wish to inform you that, as per the relevant banking records...',
+    body: `Dear Raghuraman Seetharaman
+
+ATT: HSBC BANK Ltd.
+Acc No: 002196690127
+Reference / Ref No: SWIFT-GL-23092026-76901
+
 We wish to inform you that, as per the relevant banking records, the amount of INR 13,500,000,000 (Indian Rupees One thousand three hundred and fifty crore Only) is reported to have been credited to your designated bank account.
 
 The transaction is stated to be subject to applicable foreign remittance regulations, relevant provisions of Indian financial laws, and the necessary banking compliance and verification procedures.

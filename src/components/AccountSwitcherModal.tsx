@@ -55,7 +55,7 @@ export function AccountSwitcherModal({
             )}
           </div>
 
-          <h3 className="font-semibold text-neutral-900 text-[15px]">Raghuraman S</h3>
+          <h3 className="font-semibold text-neutral-900 text-[15px]">Raghuraman Seetharaman</h3>
           <p className="text-neutral-600 text-sm mt-0.5 font-normal">
             r32071381@gmail.com
           </p>
